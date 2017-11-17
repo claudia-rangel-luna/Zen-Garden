@@ -1,0 +1,80 @@
+#css-zen-garden {
+	 background-image: url("Zen-Images/another-rough-old-and-worn-parchment-paper.jpg");
+	 padding:60px;
+	 margin:0px;
+	 height: 100vh;
+}
+h1 {
+	padding-top: 30px;
+	font-size: 3em;
+	line-height: 10px;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	text-align: center;
+	
+}
+.intro h2 {
+	padding-bottom: 1.5em;
+    padding-top: 11.0em;
+    background: url(Zen-Images/80b40105e48833a748aabffff6c1a483.png) no-repeat center 1.75em;
+    background-size: 9.45em;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+	padding-top: 30px;
+	font-size: 3em;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	text-align: center;
+
+}
+.summary {
+	height: 700px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 550px;
+	font-size: 25px;
+	background: url(Zen-Images/1aaaaapocketwatch007.png) /*no-repeat center 1.75em*/;
+	background-size: 25px;
+	
+	border: 1px solid black;
+	
+}
+#zen-summary {
+	background: url(Zen-Images/24c70b2706a02d654ae8d6158c01ccca--vintage-art-vintage-images.jpg) no-repeat left 1.75em;
+	background-size: 500px;
+	
+}
+
+
+@media screen and (max-width: 450px) {
+
+	h1 {
+	padding-top: 15px;
+	font-size: 2em;
+	line-height: 50px;
+	font-style: italic;
+	
+	}
+	.intro h2 {
+	padding-bottom: .0em;
+    padding-top: 9.0em;
+    background: url(Zen-Images/80b40105e48833a748aabffff6c1a483.png) no-repeat center 0.5em;
+    background-size: 8.45em;
+    
+	}
+
+	h2 {
+	padding-top: 15px;
+	font-size: 1em;
+	font-weight: bold;
+	}
+}
