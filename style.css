@@ -1,27 +1,42 @@
 #css-zen-garden {
 	 background-image: url("Zen-Images/another-rough-old-and-worn-parchment-paper.jpg");
-	 padding:60px;
 	 margin:0px;
 	 height: 100vh;
 }
+
+.page-wrapper {
+	background-image: url("Zen-Images/Selection_054.jpg");
+	background-size: 50px;
+	background-color: transparent;
+	background-position: right;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-attachment: fixed;
+}	
+    
+
 h1 {
-	padding-top: 30px;
+	padding-top: 200px;
 	font-size: 3em;
 	line-height: 10px;
-	font-weight: 400;
+	font-weight: bold;
 	font-style: italic;
-	letter-spacing: 0.05em;
+	letter-spacing: 1.05em;
 	text-transform: capitalize;
 	text-align: center;
+	margin-left: 50px;
+
 	
 }
 .intro h2 {
 	padding-bottom: 1.5em;
-    padding-top: 11.0em;
-    background: url(Zen-Images/80b40105e48833a748aabffff6c1a483.png) no-repeat center 1.75em;
-    background-size: 9.45em;
+    padding-top: 10.0em;
+    background: url("Zen-Images/Coffee-2346113.svg.png") no-repeat center 1.75em;
+    background-size:6.0em;
     justify-content: center;
     align-items: center;
+    margin-left:400px;
+    margin-right: 400px;
 }
 
 h2 {
@@ -29,30 +44,225 @@ h2 {
 	font-size: 3em;
 	font-weight: 400;
 	font-style: italic;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.1em;
 	text-transform: capitalize;
 	text-align: center;
+	margin-left: 50px;
 
 }
 .summary {
-	height: 700px;
 	display: flex;
-	align-items: flex-start;
-	justify-content: center;
 	flex-direction: column;
-	padding-left: 550px;
+	padding-left: 310px;
 	font-size: 25px;
-	background: url(Zen-Images/1aaaaapocketwatch007.png) /*no-repeat center 1.75em*/;
-	background-size: 25px;
+	background-size: 250px;
+	background-image: url("Zen-Images/Selection_062.jpg");
+    background-color:#d68f32;
+    background-position: 50px;
+    border-radius: 50px;
+    background-attachment: absolute;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left:400px;
+    margin-right: 400px;	
+    border:2px solid beige;
+}
+
+.preamble {
+	border:1px solid beige;
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+	padding-right: 500px;
+	font-size: 18px;
+	background-size: 415px;
+	background-image: url("Zen-Images/Selection_060.jpg");
+    background-color:#d68f32;
+    border-radius: 50px;
+    background-attachment: absolute;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-left:400px;
+    margin-right: 400px;
+    margin-top: 50px;	
+
+}
+h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	}
+#zen-supporting {
+	display: flex;
+	flex-direction: column;	
+	margin-left:400px;
+    margin-right: 400px;
+}
+.explanation {
+	border:1px solid beige;
+	border-radius: 50px;
+	margin-top: 50px;
+	background-color: #d68f32;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-left: 383px;
+	font-size: 18px;
+	background-size:380px;
+	background-image: url("Zen-Images/Selection_059.jpg");
+    background-attachment: absolute;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.participation  {
+	border:1px solid beige;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	background-color: #d68f32;
+	margin-top: 50px;
+	border-radius: 50px;
+	background-image: url(Zen-Images/63ca739ab7c3527eb2aec0ad6b92492c.png);
+	background-attachment: absolute;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:190px;
+    padding: 10px;
+
+}
+.participation h3 {
+	padding: 30px;
+	font-weight: bold;
+	font-size: 30px;
+
+
+}
+.benefits {
 	
-	border: 1px solid black;
+	border:1px solid beige;
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+	padding-right: 500px;
+	font-size: 18px;
+	background-size: 400px;
+	background-image: url("Zen-Images/Selection_063.png");
+    background-color:#d68f32;
+    border-radius: 50px;
+    background-attachment: absolute;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 50px;	
+}
+
+.requirements {
+	height: 700px;
+	border:1px solid beige;
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+	padding-right: 555px;
+	font-size: 16px;
+	background-size: 550px;
+	background-image: url("Zen-Images/Selection_053.jpg");
+    background-color:#d68f32;
+    border-radius: 50px;
+    background-attachment: absolute;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 50px;	
+}
+.requirements {
+	display: flex;
 	
 }
-#zen-summary {
-	background: url(Zen-Images/24c70b2706a02d654ae8d6158c01ccca--vintage-art-vintage-images.jpg) no-repeat left 1.75em;
-	background-size: 500px;
-	
+footer a {
+	display: flex;
+	flex-direction: row;
+	width: 100px;
+	height: 100px;
+	background-color:#965015;
+	border-radius: 50px;
+	 margin-top: 50px;
+	 justify-content: center;
+	 align-items: center;
+	 margin-left:400px;
+    margin-right: 400px;
+    color: beige;
+    text-decoration: none;
+
 }
+
+footer a:hover {
+	text-decoration: underline;
+	color: white;
+	font-size: 25px;
+}
+
+aside {
+	
+	
+	justify-content: center;
+	align-items: center;
+	background-size: 1050px;
+	background-image: url("Zen-Images/Vintage-Classic-Wallpaper-Background.jpg");
+	border: 1px solid red;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    margin-left:400px;
+    margin-right: 400px;
+   	margin-top: 50px;
+   	
+  
+}
+ .design-name, .designer-name {
+	text-align: center;
+	text-decoration: none;
+	color: #8B4513;
+	font-weight: bolder;
+}
+.design-selection{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+.design-selection h3 {
+	font-size: 50px;
+	color:#8B4513;
+	font-weight: bolder;
+	padding-left: 70px;
+	padding-top: 30px;
+}
+.design-archives{
+	display: flex;
+	flex-direction: column;
+}
+.design-archives h3 {
+	text-align: center;
+	text-decoration: none;
+	color: #8B4513;
+	font-weight: bolder;
+}
+.next a  {
+	
+	text-decoration: none;
+	color: #8B4513;
+	font-weight: bolder;
+}
+.viewall a {
+	
+	text-decoration: none;
+	color: #8B4513;
+	font-weight: bolder;
+}
+
+
+
 
 
 @media screen and (max-width: 450px) {
@@ -62,6 +272,11 @@ h2 {
 	font-size: 2em;
 	line-height: 50px;
 	font-style: italic;
+	letter-spacing: .1em;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5px;
+
 	
 	}
 	.intro h2 {
@@ -76,5 +291,6 @@ h2 {
 	padding-top: 15px;
 	font-size: 1em;
 	font-weight: bold;
+	letter-spacing: .05em;
 	}
 }
