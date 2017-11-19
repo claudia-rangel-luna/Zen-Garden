@@ -94,8 +94,6 @@ h3 {
 	font-size: 30px;
 	}
 #zen-supporting {
-	display: flex;
-	flex-direction: column;	
 	margin-left:400px;
     margin-right: 400px;
 }
@@ -181,22 +179,73 @@ h3 {
 	display: flex;
 	
 }
-footer a {
+.footer {
 	display: flex;
 	flex-direction: row;
+}
+/*footer a {
+	
+	width: 50px;
+	height: 50px;
+	background-color:#965015;
+	border-radius: 50px;
+	margin-top: 50px;
+	 justify-content: center;
+	 align-items: center;
+	margin-left:200px;
+    margin-right:200px;
+    color: beige;
+    text-decoration: none;
+
+
+}*/
+
+.zen-validate-html {
+	display: flex;
 	width: 100px;
 	height: 100px;
 	background-color:#965015;
 	border-radius: 50px;
-	 margin-top: 50px;
-	 justify-content: center;
-	 align-items: center;
-	 margin-left:400px;
-    margin-right: 400px;
+	margin-top: 50px;
+	justify-content: center;
+	align-items: center;
+	margin-left:100px;
+    margin-right:100px;
     color: beige;
     text-decoration: none;
 
 }
+
+
+.zen-validate-css {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	background-color:#965015;
+	border-radius: 50px;
+	margin-top: 5px;
+	justify-content: center;
+	align-items: center;
+	margin-left:200px;
+    margin-right:200px;
+    color: beige;
+    text-decoration: none;
+}
+.zen-license {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	background-color:#965015;
+	border-radius: 50px;
+	margin-top: 5px;
+	justify-content: center;
+	align-items: center;
+	margin-left:300px;
+    margin-right:300px;
+    color: beige;
+    text-decoration: none;
+}
+
 
 footer a:hover {
 	text-decoration: underline;
@@ -206,7 +255,7 @@ footer a:hover {
 
 aside {
 	
-	
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-size: 1050px;
@@ -217,7 +266,7 @@ aside {
     margin-left:400px;
     margin-right: 400px;
    	margin-top: 50px;
-   	
+   
   
 }
  .design-name, .designer-name {
