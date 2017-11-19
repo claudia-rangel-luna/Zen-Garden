@@ -28,6 +28,7 @@ h1 {
 
 	
 }
+
 .intro h2 {
 	padding-bottom: 1.5em;
     padding-top: 10.0em;
@@ -37,6 +38,8 @@ h1 {
     align-items: center;
     margin-left:400px;
     margin-right: 400px;
+   
+
 }
 
 h2 {
@@ -44,7 +47,7 @@ h2 {
 	font-size: 3em;
 	font-weight: 400;
 	font-style: italic;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.3em;
 	text-transform: capitalize;
 	text-align: center;
 	margin-left: 50px;
@@ -175,10 +178,7 @@ h3 {
     background-repeat: no-repeat;
     margin-top: 50px;	
 }
-.requirements {
-	display: flex;
-	
-}
+
 .footer {
 	display: flex;
 	flex-direction: row;
@@ -392,24 +392,29 @@ aside {
 
 
 @media screen and (max-width: 450px) {
+	.page-wrapper {
+	
+	background-image: none;
+	
 
+	}
 	h1 {
-	padding-top: 15px;
+	padding-top: 70px;
 	font-size: 2em;
-	line-height: 50px;
-	font-style: italic;
-	letter-spacing: .1em;
-	justify-content: center;
-	align-items: center;
-	margin-left: 5px;
+	letter-spacing: .2em;
+	padding-left: 10px;
+
 
 	
 	}
+	
 	.intro h2 {
-	padding-bottom: .0em;
-    padding-top: 9.0em;
-    background: url(Zen-Images/80b40105e48833a748aabffff6c1a483.png) no-repeat center 0.5em;
-    background-size: 8.45em;
+	padding-bottom: .1em;
+    letter-spacing: .2em;
+    background: url("Zen-Images/Coffee-2346113.svg.png") no-repeat center 0.5em;
+    background-size: 6.45em;
+    margin-left: 1px;
+    margin-right: 1px;
     
 	}
 
@@ -419,4 +424,223 @@ aside {
 	font-weight: bold;
 	letter-spacing: .05em;
 	}
+
+	.summary {
+	padding-left: 187px;
+	padding-top: 10px;
+	font-size: 14px;
+	background-size: 185px;
+    border-radius: 35px;
+    margin-left:33px;
+    margin-right:0px;	
+    text-align: left;
+	}
+	.preamble {
+	padding-left: 1px;
+	padding-right: 15px;
+	font-size: 14px;
+	background-size: 370px;
+	border-radius: 35px;
+    margin-left:33px;
+    margin-right:0px;	
+    background-position: bottom right;
+    padding-bottom: 350px;
+    
+	}
+
+	h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	}
+	#zen-supporting {
+	margin-left:33px;
+    margin-right: 0px;
+	}
+
+	.explanation {	
+	border-radius: 35px;	
+	padding-right: 15px;
+	padding-left: 1px;
+	font-size: 14px;
+	background-position: bottom center;
+   	padding-bottom: 375px;
+	font-size: 14px;
+	
+	}
+	.participation  {
+	
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+	background-color: #d68f32;
+	margin-top: 50px;
+	border-radius: 50px;
+	}
+	.benefits {
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 18px;
+	background-size: 385px;
+    background-position: top center;
+    margin-bottom: 100px;	
+	}
+	.benefits h3 {
+		padding-top: 250px;
+	}
+
+	.requirements {
+	height: 1100px;
+	padding-left: 10px;
+	padding-right: 150px;
+	font-size: 14px;
+	background-size: 155px;
+    background-position:  right;
+    background-attachment: fixed;
+    
+	}
+
+	.footer {
+	display: flex;
+	flex-direction: column;
+	}
+	.zen-validate-html {
+	margin-left:50px;
+    margin-right:50px;
+    width: 50px;
+	height: 50px;
+	margin-top: 50px;
+	}
+
+
+	.zen-validate-css {
+	display: flex;
+	width: 50px;
+	height: 50px;	
+	margin-top: 10px;
+	margin-left:100px;
+    margin-right:100px;
+   }
+	.zen-license {
+	display: flex;
+	width: 50px;
+	height: 50px;	
+	margin-top: 10px;
+	margin-left:150px;
+    margin-right:150px;
+	}
+
+	.zen-accessibility {
+	display: flex;
+	width: 50px;
+	height: 50px;	
+	margin-top: 10px;
+	margin-left:200px;
+    margin-right:200px;
+	}
+
+	.zen-github {
+	display: flex;
+	width: 50px;
+	height: 50px;	
+	margin-top: 10px;
+	margin-left:250px;
+    margin-right:250px;
+	}
+
+	footer a:hover {
+	text-decoration: underline;
+	color: white;
+	font-size: 25px;
+	background-color: #A0522D;
+	}
+	aside {	
+	font-size: 14px;
+    background-size:950px;
+    padding: 50px;
+    margin-left:20px;
+    margin-right: 20px;
+	}
+	.design-name, .designer-name {
+		text-align: right;
+		text-decoration: none;
+		color: #8B4513;
+		font-weight: bolder;
+		list-style-type: none;
+		
+	}
+	.design-name:hover, .designer-name:hover {
+		color: white;
+		text-decoration: underline;
+	}
+	.design-selection{
+		color: black;
+		text-decoration: none;
+		text-align: center;
+	}
+	.design-selection h3 {
+		font-size: 50px;
+		color:#8B4513;
+		font-weight: bolder;
+		padding-left: 30px;
+		padding-top: 55px;
+
+	}
+	.design-archives{
+		display: flex;
+		flex-direction: column;
+	}
+	.design-archives h3 {
+		text-align: center;
+		text-decoration: none;
+		color: #8B4513;
+		font-weight: bolder;
+
+	}
+	.resources {
+		color: #77322A ;
+	}
+	.zen-resources a {
+		font-size: 16px;
+		color:#8B4513;
+		font-weight: bolder;
+		padding-left: 20px;
+		padding-top: 55px;
+		text-decoration: none;
+	}
+
+	.zen-resources a:hover {
+		color: white;
+	}
+	.next a  {
+		
+		text-decoration: none;
+		color: #8B4513;
+		font-weight: bolder;
+	}
+	.next a:hover {
+		color: white;
+	}
+	.viewall a {
+		
+		text-decoration: none;
+		color: #8B4513;
+		font-weight: bolder;
+	}
+	.viewall a:hover {
+		color: white;
+	}
+
+
+
 }
+
+
+
+
+
+
+
+
+
